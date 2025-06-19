@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenos días", "hey", "qué tal"],
+      "responses": ["Hola, ¿en qué puedo ayudarte?", "¡Hey! ¿Cómo estás?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adiós", "hasta luego", "nos vemos"],
+      "responses": ["¡Hasta luego!", "Cuídate, Raz."]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["cómo te llamas", "quién eres"],
+      "responses": ["Soy Caspian, tu asistente digital.", "Puedes llamarme Caspian."]
+    }
+  ]
+}
